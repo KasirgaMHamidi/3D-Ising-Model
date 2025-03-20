@@ -5,7 +5,7 @@ Ising Model for 1 and 2 dimensions are well studied and already investigated unt
 
 However, in this study I'm not goint to investigate the ferromagnetism just yet. The main purpose of this work is to observe how the number of states near the ground state energy changes as the system size increases, universal scalings of the distribution of states, and quantum annealing, or in other words, optimization of the larger picture. Due to complex background of the system, mainly arising from the coupling matrix $J_{ij}$, phase transitions are not in the target board. 
 
-The System is a 3D Cubic lattice, where at each lattice site i there is an atom or molecule that take the values either -1 or 1, -1 indicating down spin and 1 indicating up spin. On another nore, the system's boundary lattice points also interact with the one at the opposite site, effectively making a thorus shaped interaction field. To diminish the affects of the double counting the Hamiltonian, the total energy of the system, is given by
+The System is a 3D Cubic lattice, where at each lattice site i there is an atom or molecule that take the values either -1 or 1, -1 indicating down spin and 1 indicating up spin. On another nore, the system's boundary lattice points also interact with the one at the opposite site, effectively making a thorus shaped interaction field. To diminish the affects of the double counting the Hamiltonian, the total energy of the system, is divided by two, and it is given as
 
 $$
 H = -\frac{1}{2} \sum_{i,j} J_{ij} \sigma_i \sigma_j
