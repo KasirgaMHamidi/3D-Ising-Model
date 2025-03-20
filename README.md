@@ -1,7 +1,7 @@
 # 3D-Ising-Model
 Simulating the Behaviors of Ising Glasses in 3-Dimensions
 
-Ising Model for 1 and 2 dimensions are well studied and already investigated until its most secret corner. There is not much left to learn from it at this point of time. Therefore, we need to study a higher, more realistic dimension, 3-Dimensional Ising Model. Studying this model in three dimensions will undoubtedly shed light on some of the intricate problems regarding phase transitions and ferromagnetism. 
+Ising Model for 1 and 2 dimensions are well studied and already investigated until their most secret corner. There is not much left to learn from it at this point of time. Therefore, we need to study a higher, more realistic dimension, 3-Dimensional Ising Model. Studying this model in three dimensions will undoubtedly shed light on some of the intricate problems regarding phase transitions and ferromagnetism. 
 
 However, in this study I'm not goint to investigate the ferromagnetism just yet. The main purpose of this work is to observe how the number of states near the ground state energy changes as the system size increases, universal scalings of the distribution of states, and quantum annealing, or in other words, optimization of the larger picture. Due to complex background of the system, mainly arising from the coupling matrix $J_{ij}$, phase transitions are not in the target board. 
 
